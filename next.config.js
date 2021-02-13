@@ -7,7 +7,7 @@ module.exports = {
           fs: 'empty',
         }
       }
-      const originalEntry = config.entry;
+       const originalEntry = config.entry;
       config.entry = async () => {
         const entries = await originalEntry();
 
